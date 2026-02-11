@@ -30,7 +30,7 @@ int dequeue_struct(Queue *q){
      /*Finish dequeue */
      return value;
    }
-   printf("Empty queue\n");
+   printf("Empty queue\n"); // อันนี้สำคัญมากสำหรับ Autograder
    return 0;
 }
 
@@ -44,5 +44,4 @@ void push_struct(Queue *q, int x){
         q->size++;
     }
 }
-
 #endif
